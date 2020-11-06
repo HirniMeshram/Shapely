@@ -173,8 +173,12 @@ matrix:
         SPEEDUPS=1
         NUMPY=1
 
+addons:
+  apt:
+    packages:
+    - cmake
+    
 before_install:
-  - pip install cmake==3.8.2
   - ./ci/travis/install_geos.sh
   - pip install --disable-pip-version-check --upgrade pip
   - pip install --upgrade wheel
