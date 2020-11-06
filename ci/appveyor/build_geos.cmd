@@ -12,7 +12,7 @@ if exist %GEOS_INSTALL% (
   7z x geos-%GEOS_VERSION%.tar
   cd geos-%GEOS_VERSION% || exit /B 5
 
-  pip install ninja
+  pip install ninja==1.10.1
   cmake --version
 
   mkdir build
