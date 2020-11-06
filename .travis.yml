@@ -176,7 +176,7 @@ matrix:
 addons:
   apt:
     packages:
-    - cmake
+    - cmake==3.8.2
     
 before_install:
   - ./ci/travis/install_geos.sh
