@@ -88,24 +88,6 @@ matrix:
         GEOS_VERSION="master"
         SPEEDUPS=1
         NUMPY=1
-    - python: "3.5"
-      arch: arm64
-      env:
-        GEOS_VERSION="3.5.2"
-        SPEEDUPS=1
-        NUMPY=1
-    - python: "3.5"
-      arch: arm64
-      env:
-        GEOS_VERSION="3.5.2"
-        SPEEDUPS=0
-        NUMPY=1
-    - python: "3.5"
-      arch: arm64
-      env:
-        GEOS_VERSION="3.5.2"
-        SPEEDUPS=0
-        NUMPY=0
     - python: "3.6"
       arch: arm64
       env:
