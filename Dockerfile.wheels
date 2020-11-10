@@ -1,4 +1,4 @@
-FROM quay.io/pypa/manylinux1_x86_64
+FROM quay.io/pypa/manylinux2014_aarch64
 
 ENV GEOS_VERSION 3.5.0
 
